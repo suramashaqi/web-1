@@ -1,0 +1,171 @@
+body {
+font-family: sans-serif;
+margin: 0;
+padding: 0;
+background-color:rgb(225, 161, 183);
+text-align: center;
+}
+nav {
+    background-color: blanchedalmond;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+}
+
+nav ul{
+    list-style-type: none;
+margin: 0;
+padding: 0;
+background-color: rgb(191, 151, 168);
+overflow: hidden;
+position: sticky;
+display: flex;
+
+}
+nav ul li {
+    float:left;
+    margin: 0 15px;
+}
+nav ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration:none ;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+}
+nav ul li :hover {
+    background-color: rgb(212, 164, 177);
+    border-radius: 5px;
+}
+
+.sura-image {
+display:block;
+margin-left: auto;
+margin-right: auto;
+width: 20%;
+}
+
+.about {
+    text-align: center;
+    font-weight: bold;
+    color: rgb(134, 30, 30);
+}
+.image-photo {
+    position: relative;
+    width: 300px;
+    height: 200px;
+}
+.image-ph {
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%,50%);
+   background-color: rgba(0, 0 , 0 , 0.7);
+   color:white;
+   text-decoration: 5px;
+   border-radius: 5px;
+}
+.image-ph :hover {
+background-color: aquamarine;
+}
+.image-ph img {
+   width: 100%;
+    height: auto;
+}
+
+
+.image-riding {
+    position: relative;
+    width: 300px;
+    height: 200px;
+}
+.image-horse {
+    position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%,50%);
+   background-color: rgba(0, 0 , 0 , 0.7);
+   color:white;
+   text-decoration: 5px;
+   border-radius: 5px;
+   
+}
+
+.image-horse img {
+   width:100%;
+    height: auto;
+}
+
+
+.image-read {
+    position: relative;
+    width: 300px;
+    height: 200px;
+}
+
+.image-rd {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,50%);
+    background-color: rgba(0, 0 , 0 , 0.7);
+    color:white;
+    text-decoration: 5px;
+    border-radius: 5px;
+}
+.image-rd img {
+   width: 100%;
+    height: auto;
+}
+
+#hobbies {
+    text-align: center;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+section{
+    padding:20px;
+    margin: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0  0 10px rgba(0, 0 , 0 , 0.1);
+}
+h1 {
+    color: rgb(101, 9, 9);
+    font-style: italic;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+h2 {
+    color:rgb(105, 52, 65);
+    font-style: oblique;
+}
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 10px 0;
+}
+
+form {
+margin-top: 20px;
+
+}
+input {
+    width: 300px;
+    padding: 10px;
+    border: 1px solid #881111 ;
+    border-radius: 5px;
+}
+label {
+    display: block;
+    margin-bottom: 10px;
+    justify-content: center;
+    align-items: center;
+    
+}
